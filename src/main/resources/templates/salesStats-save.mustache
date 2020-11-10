@@ -1,0 +1,52 @@
+{{>layout/header}}
+
+<h1>게시글 등록</h1>
+
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="sales_month"> 매출년월 </label>
+                <input type="text" class="form-control" id="sales_month" placeholder="사용월을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="phone_type"> 로밍운영구분 </label>
+                <input type="text" class="form-control" id="phone_type" placeholder="로밍운영구분자를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="sep"> 서비스구분 </label>
+                <input type="text" class="form-control" id="sep" placeholder="국가명을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="country"> 국가 </label>
+                <input type="text" class="form-control" id="country" placeholder="국가명을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="carrier"> 사업자 </label>
+                <input type="text" class="form-control" id="carrier" placeholder="사업자명을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="tap_code"> TAP CODE </label>
+                <input type="text" class="form-control" id="tap_code" placeholder="TAP_CODE를 입력하세요">
+            </div>
+
+            <div class="form-group">
+                <label for="usd_charge"> 사용금액(USD) </label>
+                <input type="text" class="form-control" id="usd_charge" placeholder="사용금액(USD)를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="krw_charge"> 사용금액(KRW) </label>
+                <input type="text" class="form-control" id="krw_charge" placeholder="사용금액(KRW)를 입력하세요">
+            </div>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-save">등록</button>
+    </div>
+</div>
+
+<script src="https:code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="/js/app/salesStats.js"></script>
+</body>
+</html>
